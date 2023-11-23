@@ -1,0 +1,64 @@
+*{
+           margin: 0;
+           padding: 0;
+}
+
+nav{
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           height:90px;
+           background-color: rgb(128, 0, 68);
+           
+}
+nav ul{
+           display: flex;
+           justify-content: center;
+           color: white;
+}
+nav ul li{
+           list-style: none;
+           margin: 0 23px;
+}
+nav ul li a{
+           text-decoration: none;
+           color: white;
+}
+nav ul li a:hover{
+           color: blue;
+           font-size: 1.02 rem;
+}
+.left{
+           font-size: 2rem;
+           color: white;
+           font-weight: bold;
+}
+
+/* home page begines here */
+.banner{
+           width: 100%;
+           height: 83.5vh;
+           background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pictures/work.avif);
+           background-size: cover;
+           background-position: center;
+}
+.container{
+           width: 100%;
+           position: absolute;
+           top: 50%;
+           transform: translateY(-50%);
+           text-align: center;
+           color: white;
+}
+.container h2{
+           font-size:  70px;
+           margin-top: 80px;
+}
+.container p{
+           margin: 20px auto;
+           font-weight: bold;
+           font-size: 35px;
+           line-height: 20px;
+           font-style: italic;
+           color: #0AF0F5;
+}
